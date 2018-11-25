@@ -26,6 +26,12 @@ y nos redirigirá al Home donde ya podremos ver el nombre de nuestra boda creada
 
 <img src="https://github.com/joseantonioruizmostazo/wemarried-app-ionic/blob/master/imagenes/crear.png" width="300px">
 
+### Boda creada
+
+Al redirigirnos al Home, nos cercioramos de que la boda se ha creado correctamente, almacenándola en el storage del navegador junto a las otras.
+
+<img src="https://github.com/joseantonioruizmostazo/wemarried-app-ionic/blob/master/imagenes/creada.png" width="300px">
+
 ### Editamos boda
 
 De nuevo en el Home con la boda ya creada, pulsamos en el icono del lápiz de la boda correspondiente para que nos lleve a editarla, la editamos y pulsamos "Guardar" de nuevo.
