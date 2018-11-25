@@ -6,7 +6,7 @@ Imágenes de la aplicación:
 
 ### Portada
 
-En esta primera pantalla tenemos el nombre de la aplicación y un botón de acceso al home de la misma, pulsamos pues en el botón
+En esta primera pantalla tenemos el nombre de la aplicación y un botón de acceso al home de la misma, pulsamos en el botón
 "Entrar" para acceder al Home.
 
 <img src="https://github.com/joseantonioruizmostazo/wemarried-app-ionic/blob/master/imagenes/portada.png" width="300px">
