@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>
+      Bodas
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button href="/portada">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button href="/edit" routerDirection="forward">
+        <ion-icon name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary" padding>
+  <ion-list lines="full">
+    <ion-item color="tertiary" *ngFor="let b of bodas">
+      <ion-label (click)="mostrarInfo(b.id)">{{ b.nombre }}</ion-label>
+      <ion-icon (click)="editBoda(b.id)" name="create" color="medium"></ion-icon>
+      <ion-icon (click)="deleteDialog(b.nombre, b.id)" name="trash" color="medium"></ion-icon>
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-back-button href="/home">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-title>Boda</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary" padding>
+  <ion-item>
+    <ion-label position="floating">Nombre de la boda</ion-label>
+    <ion-input clearInput [(ngModel)]="boda.nombre"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Fecha ceremonia</ion-label>
+    <ion-input clearInput [(ngModel)]="boda.fecha"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Dirección ceremonia</ion-label>
+    <ion-input clearInput [(ngModel)]="boda.direccion"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Hora ceremonia</ion-label>
+    <ion-input clearInput [(ngModel)]="boda.hora"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Número de invitados</ion-label>
+    <ion-input clearInput [(ngModel)]="boda.invitados"></ion-input>
+  </ion-item>
+
+
+  <ion-button (click)="saveBoda(boda)" color="primary" expand="full">Guardar</ion-button>
+</ion-content>

@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="end">
+      <ion-button (click)="close()">
+        <ion-icon slot="icon-only" name="close-circle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>{{ boda.nombre }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary" padding>
+  <ion-item lines="none">Fecha de la boda: {{ boda.fecha }}</ion-item><br><br>
+  <ion-item lines="none">Dirección de la boda: {{ boda.direccion }}</ion-item><br><br>
+  <ion-item lines="none">Hora de la boda: {{ boda.hora }}</ion-item><br><br>
+  <ion-item lines="none">Número de invitados: {{ boda.invitados }}</ion-item>
+</ion-content>

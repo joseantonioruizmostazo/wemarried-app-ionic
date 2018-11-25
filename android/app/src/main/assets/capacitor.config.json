@@ -1,0 +1,6 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "wemarried",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}
