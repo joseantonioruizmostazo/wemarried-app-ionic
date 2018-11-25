@@ -15,7 +15,7 @@ En esta primera pantalla tenemos el nombre de la aplicación y un botón de acce
 
 Esta es la pantalla principal de la app, donde se muestra la lista de todas las bodas que hemos creado.
 En ella podemos volver a la portada pulsando la flecha <-- situada en la parte superior izquierda de la cabecera.
-Si pulsamos sobre el símbolo +, nos llevará a la pantalla de crear boda.
+Si pulsamos sobre el símbolo + nos llevará a la pantalla de crear boda.
 
 <img src="https://github.com/joseantonioruizmostazo/wemarried-app-ionic/blob/master/imagenes/home.png" width="300px">
 
