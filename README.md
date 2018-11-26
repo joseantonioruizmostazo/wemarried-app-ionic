@@ -46,8 +46,8 @@ Vemos que la boda se ha editado correctamente al redirigirnos al Home.
 
 ### Ver información
 
-De nuevo en el Home tenemos la posibilidad de hacer click en el nombre de la boda que queramos para poder ver su información en 
-una ventana modal, la cual podemos cerrar luego pulsando el icono d ela cruz (x) en la parte superior izquierda.
+De nuevo en el Home, tenemos la posibilidad de hacer click en el nombre de la boda que queramos para poder ver su información en 
+una ventana modal, la cual podemos cerrar luego pulsando el icono de la cruz (x) en la parte superior derecha.
 
 <img src="https://github.com/joseantonioruizmostazo/wemarried-app-ionic/blob/master/imagenes/info.png" width="300px">
 
