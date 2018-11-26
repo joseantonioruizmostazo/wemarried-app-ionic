@@ -11,10 +11,11 @@ export class BodaService {
   bodaCounter = 0;
 
   constructor(private storage: Storage) {
-      
-    
-      this.getBodas().then(
-        data => {
+
+
+    this.getBodas().then(
+      data => {
+        if (data) {
           this.bodas = data;
           this.bodas.forEach(
             b => {
@@ -24,7 +25,8 @@ export class BodaService {
             });
           this.bodaCounter++;
         }
-      );
+      }
+    );
   }
 
 
